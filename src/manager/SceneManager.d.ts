@@ -1,0 +1,60 @@
+/// <reference path="../main.d.ts"/>
+declare class SceneManager {
+	static _scene: {};
+	static _nextScene: {};
+	static _stack: {}[];
+	static _stopped: boolean;
+	static _sceneStarted: boolean;
+	static _exiting: boolean;
+	static _previousClass: {};
+	static _backgroundBitmap: Bitmap;
+	static _screenWidth: number;
+	static _screenHeight: number;
+	static _boxWidth: number;
+	static _boxHeight: number;
+	
+	static run(sceneClass: {}): void;
+	static initialize(): void;
+	static initGraphics(): void;
+	static preferableRendererType(): string;
+	static shouldUseCanvasRenderer(): boolean;
+	static checkWebGL(): void;
+	static checkFileAccess(): void;
+	static initAudio(): void;
+	static initInput(): void;
+	static initNwjs(): void;
+	static checkPluginErrors(): void;
+	static setupErrorHandlers(): void;
+	static requestUpdate(): void;
+	static update(): void;
+	static terminate(): void;
+	static onError(e: Event): void;
+	static onKeyDown(event: {}): void;
+	static catchException(e: ExceptionInformation): void;
+	static tickStart(): void;
+	static tickEnd(): void;
+	static updateInputData(): void;
+	static updateMain(): void;
+	static changeScene(): void;
+	static updateScene(): void;
+	static renderScene(): void;
+	static onSceneCreate(): void;
+	static onSceneStart(): void;
+	static onSceneLoading(): void;
+	static isSceneChanging(): boolean;
+	static isCurrentSceneBusy(): boolean;
+	static isCurrentSceneStarted(): boolean;
+	static isNextScene(): boolean;
+	static isPreviousScene(): boolean;
+	static goto(sceneClass: {}): void;
+	static push(sceneClass: {}): void;
+	static pop(): void;
+	static exit(): void;
+	static clearStack(): void;
+	static stop(): void;
+	static prepareNextScene(): void;
+	static snap(): Bitmap;
+	static snapForBackground(): void;
+	static backgroundBitmap(): Bitmap;
+	
+}

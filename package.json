@@ -1,0 +1,17 @@
+{
+  "name": "rpg-maker-mv-definition-files",
+  "version": "0.1.0",
+  "description": "TypeScript definition files for the RPG Maker MV.",
+  "main": "",
+  "author": "Churanos <churanos@outlook.com> (http://churanos.github.io)",
+  "license": "MIT",
+  "repository": {
+      "type": "git",
+      "url": ""
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-strip-comments": "^1.0.1"
+  }
+}
