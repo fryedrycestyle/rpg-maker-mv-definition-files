@@ -10,9 +10,9 @@ declare class Scene_Base extends Stage {
 	create();
 	isActive(): boolean;
 	isReady(): boolean;
-	start(): boolean;
+	start(): void;
 	update(): void;
-	stop(): boolean;
+	stop(): void;
 	isBusy(): boolean;
 	terminate();
 	createWindowLayer(): void;

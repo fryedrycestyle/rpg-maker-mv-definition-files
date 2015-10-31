@@ -6,9 +6,8 @@ declare class Window_Base extends Window {
 	static _faceHeight: number;
 	
 	contents: any;
-	this: Window_Base;
 	
-	new(): Window_Base;
+	constructor();
 	gaugeHeight(): number;
 	lineHeight(): number;
 	standardFontFace(): string;
@@ -35,7 +34,7 @@ declare class Window_Base extends Window {
 	drawActorLevel(actor: IActor,x: number, y: number): void;
 	drawCurrentAndMax(current: number, max: number, x: number, y: number, width: number, color1: any, color2: any): void;
 	drawActorTp(actor: IActor, x: number, y: number, width: number): void;
-	ddrawActorSimpleStatus(actor: IActor, x: number, y: number, width: number): void;
+	drawActorSimpleStatus(actor: IActor, x: number, y: number, width: number): void;
 	drawCurrencyValue(value: number, unit: string, ex: number, wy: number, ww: number): void;
 	drawItemName(item: IItem, x: number, y: number, width: number): void;
 	usingGoldIcon(unit: string): boolean;
