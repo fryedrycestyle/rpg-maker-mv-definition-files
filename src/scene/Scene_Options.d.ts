@@ -1,8 +1,9 @@
 /// <reference path="../main.d.ts"/>
 declare class Scene_Options extends Scene_MenuBase {
-	constructor();
+	private _optionsWindow: Window_Options;
 	
-	create();
-	terminate();
+	constructor();
+	create(): void;
+	terminate(): void;
 	createOptionsWindow(): void;
 }
