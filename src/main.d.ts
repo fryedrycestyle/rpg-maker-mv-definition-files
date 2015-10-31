@@ -75,8 +75,26 @@
 /// <reference path="manager/TextManager.d.ts"/>
 
 /// <reference path="scene/Scene_Base.d.ts"/>
+/// <reference path="scene/Scene_Battle.d.ts"/>
 /// <reference path="scene/Scene_Boot.d.ts"/>
+/// <reference path="scene/Scene_Debug.d.ts"/>
+/// <reference path="scene/Scene_Equip.d.ts"/>
+/// <reference path="scene/Scene_File.d.ts"/>
+/// <reference path="scene/Scene_GameEnd.d.ts"/>
+/// <reference path="scene/Scene_Gameover.d.ts"/>
+/// <reference path="scene/Scene_Item.d.ts"/>
+/// <reference path="scene/Scene_ItemBase.d.ts"/>
+/// <reference path="scene/Scene_Load.d.ts"/>
+/// <reference path="scene/Scene_Map.d.ts"/>
+/// <reference path="scene/Scene_Menu.d.ts"/>
 /// <reference path="scene/Scene_MenuBase.d.ts"/>
+/// <reference path="scene/Scene_Name.d.ts"/>
+/// <reference path="scene/Scene_Options.d.ts"/>
+/// <reference path="scene/Scene_Save.d.ts"/>
+/// <reference path="scene/Scene_Shop.d.ts"/>
+/// <reference path="scene/Scene_Skill.d.ts"/>
+/// <reference path="scene/Scene_Status.d.ts"/>
+/// <reference path="scene/Scene_Title.d.ts"/>
 
 /// <reference path="sprite/Sprite_Actor.d.ts"/>
 /// <reference path="sprite/Sprite_Animation.d.ts"/>
@@ -97,3 +115,5 @@
 /// <reference path="spriteset/Spriteset_Base.d.ts"/>
 /// <reference path="spriteset/Spriteset_Battle.d.ts"/>
 /// <reference path="spriteset/Spriteset_Map.d.ts"/>
+
+/// <reference path="window/Window_Base.d.ts"/>
