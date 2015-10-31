@@ -31,12 +31,12 @@ declare class Window_Base extends Window {
 	tpGaugeColor2(): string;
 	tpCostColor(): string;
 	drawGauge(dx: number, dy: number, dw: number,rate: number, color1: any, color2: any): void;
-	drawActorLevel(actor: IActor,x: number, y: number): void;
+	drawActorLevel(actor: Game_Actor,x: number, y: number): void;
 	drawCurrentAndMax(current: number, max: number, x: number, y: number, width: number, color1: any, color2: any): void;
-	drawActorTp(actor: IActor, x: number, y: number, width: number): void;
-	drawActorSimpleStatus(actor: IActor, x: number, y: number, width: number): void;
+	drawActorTp(actor: Game_Actor, x: number, y: number, width: number): void;
+	drawActorSimpleStatus(actor: Game_Actor, x: number, y: number, width: number): void;
 	drawCurrencyValue(value: number, unit: string, ex: number, wy: number, ww: number): void;
-	drawItemName(item: IItem, x: number, y: number, width: number): void;
+	drawItemName(item: Game_Item, x: number, y: number, width: number): void;
 	usingGoldIcon(unit: string): boolean;
 	translucentOpacity(): number;
 	textWidth(text: string): number;
