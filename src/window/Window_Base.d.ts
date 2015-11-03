@@ -14,7 +14,7 @@ declare class Window_Base extends Window {
 	public height: number;
 	public padding: number;
 	
-	constructor();
+	constructor(x: number, y: number, width: number, height: number);
 	gaugeHeight(): number;
 	lineHeight(): number;
 	standardFontFace(): string;
